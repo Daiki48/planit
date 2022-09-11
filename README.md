@@ -21,3 +21,8 @@ A `todo_list.json` is created in the `data` directory.
 - [ ] ToDo Delete
 - [ ] ToDo Create-Date
 - [ ] Help
+
+# Author
+
+Daiki Nakashima
+< daiki48.engineer@gmail.com >
