@@ -26,3 +26,8 @@ A `todo_list.json` is created in the `data` directory.
 
 Daiki Nakashima
 < daiki48.engineer@gmail.com >
+
+# Confirmed Operation
+
+- macOS
+- windows10(21H2)
