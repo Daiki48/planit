@@ -2,8 +2,13 @@
 name = "planit"
 version = "0.1.0"
 edition = "2021"
+authors = ["Daiki Nakashima <daiki48.engineer@gmail.com>"]
+license = "MIT"
+description = "TODO App"
+readme = "README.md"
+repository = "https://github.com/Daiki48/planit.git"
+keywords = ["cli", "todo"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 serde_json = "1.0.85"
