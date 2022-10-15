@@ -1,3 +1,9 @@
+mod todo_input;
+
+use todo_input::{
+    get_title,
+    get_contents
+};
 
 #[derive(Debug)]
 struct Todo {
@@ -26,18 +32,6 @@ impl Todo {
     }
 }
 
-fn get_title() -> String {
-    let mut title = String::new();
-    std::io::stdin().read_line(&mut title).ok();
-    return title.trim().parse().ok().unwrap();
-}
-
-fn get_contents() -> String {
-    let mut contents = String::new();
-    std::io::stdin().read_line(&mut contents).ok();
-    return contents.trim().parse().ok().unwrap();
-}
-
 fn main() {
     std::process::Command::new("clear").status().unwrap();
 
@@ -47,5 +41,7 @@ fn main() {
 
     println!("title is {}", &todo.title);
     println!("contents is {}", &todo.contents);
+
+    println!("{:?}", &todo);
 
 }
