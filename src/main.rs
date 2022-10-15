@@ -9,6 +9,7 @@ use todo_input::{
 struct Todo {
     title: String,
     contents: String,
+    status: bool,
 }
 
 impl Todo {
@@ -16,6 +17,7 @@ impl Todo {
         Todo {
             title: "".to_string(),
             contents: "".to_string(),
+            status: true,
         }
     }
 
@@ -41,6 +43,7 @@ fn main() {
 
     println!("title is {}", &todo.title);
     println!("contents is {}", &todo.contents);
+    println!("status is {}", &todo.status);
 
     println!("{:?}", &todo);
 
