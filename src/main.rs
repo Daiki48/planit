@@ -15,4 +15,6 @@ fn main() {
 
     println!("{:?}", &todo);
 
+    let _ = todo.save();
+    println!("saved");
 }
